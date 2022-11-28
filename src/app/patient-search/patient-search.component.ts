@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class PatientSearchComponent {
 
+  patientid=""
+
+  search = ()=>
+  {
+    let data:any ={"patientid":this.patientid}
+
+    console.log(data)
+  }
+
 }
